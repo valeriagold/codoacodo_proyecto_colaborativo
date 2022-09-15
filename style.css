@@ -1,0 +1,104 @@
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+/* LOGO */
+.logo {
+    width: 50%;
+}
+/***NAV***/
+.nav {
+    margin: 30px 0;
+}
+.nav ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.nav li {
+    list-style: none;
+}
+.nav a {
+    text-decoration: none;
+    color: #f52525;
+    text-transform: uppercase;
+	letter-spacing: 1px;
+    font-size: 16px;
+	font-weight: 1000;
+	transition: color 0.25s;
+}
+.nav a:hover {
+    color: rgb(7, 12, 80);
+}
+
+.recetas-page-container {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1e2e2;
+}
+
+/* GENÉRICOS */
+h1, h2, h3, h4, h5, h6 {font-family: "Montserrat","Droid serif", Georgia, "Times New Roman", Times, serif;color:#e7d915;}
+a h1, a h2, a h3, a h4, a h5, a h6 {color:#3a25f5;}
+a {color:#451197; text-decoration:none}
+a:hover {text-decoration: underline;}
+ul, li {list-style: none;-webkit-padding-start: 0;}
+
+
+body {
+	background-color: #FFF;
+   	/*background:#FFF url("images/Amparo logo.png") repeat-y center top;*/ /* Navidad */
+	font: 14px/1.4 "Nunito Sans","Segoe UI", "Roboto", ".SFNSText-Regular", "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#2c3032;
+	accent-color: #100db3;
+	}
+
+/***SLIDER***/
+/***********/
+.slider {
+    background-color: #f1e2e2;
+}
+.slider img {
+    width: 98vw;
+} 
+/***RECETAS***/
+/*************/
+.recetas-section {
+    background-color: #f1e2e2;
+    padding: 40px;
+	color: #f52525;
+}
+
+.recetas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.receta-card {
+    margin: 15px;
+    width: 25%;
+    font-size: 13px;
+    text-align: center;
+    background-color: #ffff;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(182, 182, 182, 1.5);
+    transition: transform 0.5s;
+}
+.receta-card:hover {
+    box-shadow: 0px 10px 15px 5px rgba(182, 182, 182, 1.5);
+    transform: translateY(-10px);
+}
+.img-recetas-section {
+    max-width: 100%;
+}
+
+/***FOOTER***/
+.footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}

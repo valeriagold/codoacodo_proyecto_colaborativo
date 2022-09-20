@@ -1,6 +1,6 @@
 /***FOOTER***/
 .footer {
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     padding: 60px;

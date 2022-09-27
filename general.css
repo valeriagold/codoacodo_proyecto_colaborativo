@@ -1,0 +1,15 @@
+/* GENÉRICOS */
+h1, h2, h3, h4, h5, h6 {font-family: "Montserrat","Droid serif", Georgia, "Times New Roman", Times, serif;color:#f52525;}
+a h1, a h2, a h3, a h4, a h5, a h6 {color:#3a25f5;}
+a {color:#451197; text-decoration:none}
+a:hover {text-decoration: underline;}
+ul, li {list-style: none;-webkit-padding-start: 0;}
+
+
+body {
+	background-color: #FFF;
+   	/*background:#FFF url("images/Amparo logo.png") repeat-y center top;*/ /* Navidad */
+	font: 14px/1.4 "Nunito Sans","Segoe UI", "Roboto", ".SFNSText-Regular", "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#2c3032;
+	accent-color: #100db3;
+	}

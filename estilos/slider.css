@@ -52,5 +52,6 @@
     padding: 30px;
     /* Un solo valor para los 4 lados */
     margin: 20px;
-    background-color: white;
+    background-color: white
+    ;
 }

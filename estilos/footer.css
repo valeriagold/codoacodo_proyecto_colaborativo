@@ -1,7 +1,37 @@
 /***FOOTER***/
 .footer {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    padding: 60px;
+    padding: 50px;
+    text-align: center;
+}
+.suscribe_banner {
+    padding: 10px 20px;
+    background-image: url(../images/Fondo_footer.jpg);
+    background-size: 270px;
+    background-repeat: repeat;
+}
+.suscribe_banner p {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 0;
+}
+.suscribe_banner a {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.suscribe_banner a:hover {
+    text-decoration: none;
+}
+@media screen and (max-width: 700px){
+    .footer {
+        padding: 0px;
+    }
+}
+.realizado {
+    color: #808080;
+    font-size: 11px;
+    font-style: italic;
 }

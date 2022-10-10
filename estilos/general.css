@@ -13,3 +13,67 @@ body {
 	color:#2c3032;
 	accent-color: #100db3;
 	}
+
+/* FOTO AMPARO INDEX COMO EMPEZO */
+.foto-amparo-index {
+	margin: 0 auto;
+    display: block;
+	width: 100%;
+	min-width: 300px;
+}
+
+/* FUENTES DE TITULOS */
+.amparo-title {
+	color: #dc143c;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+/* BOTONES */
+
+.btn {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+	font-size: 14px;
+	line-height: 1.2;
+	border: 0px;
+	font-family: "Nunito Sans", "Segoe UI", Roboto, ".SFNSText-Regular", "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn:hover{
+	cursor: pointer;
+}
+
+/* FORMULARIOS */
+.enviadoOk {
+	color: #1b5e20;
+}
+#my-form label {
+	min-width: 65px;
+    display: inline-block;
+    vertical-align: top;
+	}
+#my-form div {
+	display: flex;
+    gap: 8px;
+}
+#my-form input,
+#my-form textarea {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.campo-obligatorio-leyenda {
+	font-size: 12px;
+	color: rgb(48, 46, 46);
+	font-style: italic;
+}
+
+@media screen and (max-width: 700px){
+    #my-form div {
+		gap: 5px;
+		flex-direction: column;
+	}
+}

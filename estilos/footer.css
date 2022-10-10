@@ -14,14 +14,7 @@
     font-weight: bold;
     margin-top: 0;
 }
-.suscribe_banner a {
-    background-color: #ffffff;
-    color: #000000;
-    font-weight: bold;
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
+
 .suscribe_banner a:hover {
     text-decoration: none;
 }

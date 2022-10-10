@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---- Favicon ---->
+    <link rel="shortcut icon" type="image/x-icon" href="./Amparo favicon.ico" />
+    <!-- Font Montserrat Family - Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./estilos/includes.css" />
+    <title>Amparo Cocina - Recetas de cocina fáciles para comer rico</title>
+    </title>
+</head>
+
+<body>
+    <!---- Header ---->
+    <header class="header">
+        <!---- Logo ---->
+        <div class="header-logo">
+            <img class="logo" src="./images/Amparo logo.png" alt="Logo Amparo Cocina" />
+        </div>
+        <div class="header-links-social">
+            <a href="http://www.instagram.com/amparo.cocina/"><i class="fa-brands fa-facebook fa-xl" title="ir a facebook"></i></a>
+            <a href="http://www.instagram.com/amparo.cocina/"><i class="fa-brands fa-instagram fa-xl" title="ir a instagram"></i></a>
+            <a href="./contacto.html"><i class="fa-regular fa-envelope fa-xl" title="mandar un mail"></i></a>
+        </div>
+    </header>
+    <!----- Panel de navegacion ------>
+    <nav class="nav">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./acercadeamparo.html">Acerca de Amparo</a></li>
+            <li><a href="./recetas.html">Recetas</a></li>
+            <li><a href="./premios.html">Premios</a></li>
+            <li><a href="./alianzasconemprendedores.html">Alianzas con emprendedores</a></li>
+            <li><a href="./galeria.html">Galería</a></li>
+        </ul>
+    </nav>
+       <!----- Contacto ----->
+    <section class="recetas-section">
+        <div class="recetas-container">
+<h2 class="amparo-title">Envianos tu mensaje, estamos felices de leerte</h2>
+            <form id="my-form" action="https://formspree.io/f/xoqblvkr" method="POST">
+                <div><label>Nombre*:</label> 
+                    <input type="text" name="name" required/>
+                </div>
+                <div><label>Email*:</label>
+                    <input type="email" name="email" required/>
+                </div>
+                <div><label>Mensaje*:</label>
+                    <textarea name="message" id="" cols="30" rows="10" required></textarea>
+                </div>
+                <button id="my-form-button" class="btn">Enviar</button>
+                <p class="campo-obligatorio-leyenda">* Estos campos son obligatorios</p>
+                <p id="my-form-status"></p>
+                
+              </form>
+              
+        </div>
+    </section>
+    <!----- Footer ----->
+    <footer class="footer">
+        <div class="suscribe_banner">
+            <p>¡Dejanos un mensaje y sigamos en contacto! Somos la comunidad de Amparo Cocina</p>
+            
+        </div>
+        
+        <div class="realizado">
+            <p>Realizado por Grupo Codo a Codo comisión 22508 | Todos los derechos reservados © 2022</p>
+        </div>
+    </footer>
+
+    <!----- Llamada a javascript ----->  
+      <script src="./js/princial.js"></script>
+</body>
+
+</html>

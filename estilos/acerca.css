@@ -1,0 +1,22 @@
+.flex-container-amparo {
+    display: flex;   
+    background-color: lightgray;
+    padding: 40px;
+    height: auto;  
+}
+
+.flex-container-amparo > div {  
+    color: black;
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 850px){
+    .flex-container-amparo {
+		display: block;
+	}
+}

@@ -32,23 +32,6 @@
 	}
 }
 
-/*** TABLAS acerca de amparo 
-.div-table-amparo{
-    background-color: rgba(207, 207, 207, 0.849); 
-}
-.content-table-amparo{
-    width: 100%;
-    padding: 40px;
-}
-
-.content-table-amparo-tr{
-    background-color:white ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
-    text-align: justify;
-}
-****/
-
 #contenedor-amparo {
     background-color: lightgray;
     padding: 10px;
@@ -61,6 +44,5 @@
     padding: 30px;
     /* Un solo valor para los 4 lados */
     margin: 20px;
-    background-color: white
-    ;
+    background-color: white;
 }

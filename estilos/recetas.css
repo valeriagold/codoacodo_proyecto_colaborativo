@@ -47,3 +47,69 @@
     max-width: 100%;
 }
 
+/* PAGINA RECETAS */
+.col25b {
+    display: inline-block;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.col25 {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 30px;
+    width: 40%;
+    position: relative;
+    bottom: 100px;
+}
+
+.col40 {
+    display: inline-block;
+    width: 40%;
+    color: black;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: lightgray;
+    color: #ffffff;
+    }
+
+.menu li:hover {
+    color:red;
+    background-color: white;
+}
+
+.foto-receta {	
+    display: inline-block;
+    position: relative;
+    bottom: -30px;
+	width: 40%;
+	min-width: 320px;
+}
+
+@media only screen and (max-width: 920px) {
+    .col25b { width: 80%; }
+    .col25 { width: 80%; }
+    .col40 { width: 80%;
+             text-align: justify;
+            padding: 20px; }
+    .foto-receta {
+        display: block;
+        top:  100px;
+        width: 80%;
+        min-width: 150px; 
+    }
+}
+
+h2 {
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -15,8 +15,21 @@
     text-align: justify;
 }
 
+.foto-amparo-acerca {
+	margin: 0 auto;
+    display: block;
+	width: 60%;
+	min-width: 300px;
+}
+
 @media screen and (max-width: 850px){
     .flex-container-amparo {
 		display: block;
 	}
+    .foto-amparo-acerca {
+        display: block;
+        width: 60%;
+        min-width: 150px;
+    }
 }
+

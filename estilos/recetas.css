@@ -6,7 +6,9 @@
     padding: 40px;
 	color: #f52525;
 }
-
+.recetas-section a{
+   	color: #f52525;
+}
 .recetas-page-container {
     padding: 40px;
     display: flex;
@@ -73,6 +75,10 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0 7px;
 }
 
 .menu li {
@@ -80,6 +86,7 @@
     margin-bottom: 7px;
     background-color: lightgray;
     color: #ffffff;
+    flex: 0 0 44%;
     }
 
 .menu li:hover {
@@ -96,7 +103,13 @@
 }
 
 @media only screen and (max-width: 920px) {
-    .col25b { width: 80%; }
+    .recetas-section {
+        padding: 20px;
+    }
+    .menu ul {
+        display: block;
+    }
+    .col25b { width: 100%; margin: 0 auto; padding: 0;}
     .col25 { width: 80%; }
     .col40 { width: 80%;
              text-align: justify;

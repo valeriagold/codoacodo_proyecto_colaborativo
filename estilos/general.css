@@ -60,14 +60,24 @@ body {
 .enviadoOk {
 	color: #1b5e20;
 }
+#my-form {
+	max-width: 350px;
+	width: 100%;
+}
+#my-form * {
+	box-sizing: border-box;
+}
 #my-form label {
 	min-width: 65px;
     display: inline-block;
     vertical-align: top;
 	}
-#my-form div {
+#my-form > div {
 	display: flex;
     gap: 8px;
+}
+#my-form .validador-box{
+	flex: auto;
 }
 #my-form input,
 #my-form textarea {
@@ -78,6 +88,13 @@ body {
 	font-size: 12px;
 	color: rgb(48, 46, 46);
 	font-style: italic;
+}
+.mensaje-validador {
+	margin-bottom: 15px;
+    margin-top: -5px;
+    font-size: 12px;
+    font-style: italic;
+    color: darkgray;
 }
 
 @media screen and (max-width: 700px){

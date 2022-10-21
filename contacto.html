@@ -50,13 +50,19 @@
         <div class="narrow-container">
 <h2 class="amparo-title">Envianos tu mensaje, estamos felices de leerte</h2>
             <form id="my-form" action="https://formspree.io/f/xoqblvkr" method="POST">
-                <div><label>Nombre*:</label> 
-                    <input type="text" name="name" required/>
+                <div>
+                    <label>Nombre*:</label> 
+                    <div class="validador-box">
+                        <input type="text" name="name" required onkeyup="validateNameLenght(this.value)"/>
+                        <div id="js-validadorForm"></div>
+                    </div>
                 </div>
-                <div><label>Email*:</label>
+                <div>
+                    <label>Email*:</label>
                     <input type="email" name="email" required/>
                 </div>
-                <div><label>Mensaje*:</label>
+                <div>
+                    <label>Mensaje*:</label>
                     <textarea name="message" id="" cols="30" rows="10" required></textarea>
                 </div>
                 <button id="my-form-button" class="btn">Enviar</button>

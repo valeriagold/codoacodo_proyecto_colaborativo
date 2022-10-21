@@ -31,3 +31,14 @@ async function handleSubmit(event) {
     });
 }
 form.addEventListener("submit", handleSubmit);
+
+// Validate name input
+function validateNameLenght(character){
+    if(character.length < 5){
+        document.getElementById('js-validadorForm')
+                .innerHTML = '<p class="mensaje-validador">Tu nombre completo debe contener al menos 5 letras.</p>';
+    } else {
+        document.getElementById('js-validadorForm')
+                .innerHTML = '';
+    }
+}
